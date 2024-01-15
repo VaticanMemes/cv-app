@@ -1,4 +1,5 @@
 import Form from './Form.jsx'
+import Cv from './Cv.jsx'
 
 function Body() {
 
@@ -8,7 +9,7 @@ function Body() {
             <Form />
         </div>
         <div className="col">
-            
+            <Cv />
         </div>
     </div>
     )

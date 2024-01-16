@@ -1,13 +1,6 @@
-import { useState } from 'react'
-
 function Form() {
-
-    const [data, setData] = useState([])
-
     return (
     <>
-        <input id="test" type="text" value={data} onChange={(e) => setData(e.target.value)} />
-        <p>{data}</p>
         <div className="mb-3">
             <label htmlFor="name" className="form-label">Name</label>
             <input type="text" className="form-control" id="name" placeholder="John Smith" />
